@@ -1,1 +1,332 @@
-Hi, Felia's here!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Felia Evangelista</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo">Felia Evangelista</td>
+                <td id="navigation">
+                    <a href="#bio">About Felia</a>
+                    <a href="#background">Background</a>
+                    <a href="#skills">Skills & Abilities</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <table id="top_part">
+        <tr>
+            <td id="about" class="animated slideInLeft" style="animation-delay:2s;">
+                <h1>An Aspiring Data Analyst</h1>
+                <button class="btn_one">Get to know me!</button><br>
+                <table>
+                    <tr>
+                        <td class="animated zoomIn" style="animation-delay:2.2s;">
+                        <a href="mailto:evangelistafelia0059@gmail.com" target="_blank" class="social"><i class="fab fa-gmail"></i></a></td>
+                        
+                        <td class="animated zoomIn" style="animation-delay:2.4s;">
+                        <a href="https://www.linkedin.com/in/felia-evangelista/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a></td>
+                        
+                        <td class="animated zoomIn" style="animation-delay:2.6s;">
+                        <a href="https://www.instagram.com/feliaevangelista/?next=%2F" target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
+                        
+                        <td class="animated zoomIn" style="animation-delay:2.8s;">
+                        <a href="https://github.com/feliaevangelista" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
+                    </tr>
+                </table>
+            </td>
+            <td id="rightImage" class="animated jackInTheBox" style="animation-delay:2.2s;"></td>
+        </tr>
+    </table>
+
+    
+    <div id="bio">
+        <h1>About Felia</h1>
+        <p>
+            An enthusiastic, detail-oriented business management graduate and aspiring data analyst who is looking for an opportunity in a supportive company which enables me to explore and become expert in data analytics. 
+			Completed an intensive data analytics course and have worked on an end-to-end retail banking dataset project to translate data into insights and give actionable recommendations to improve customer retention, customer experience, and maximize marketing campaigns. 
+			Gained not only the proficiency of SQL, Python, Tableau Public, and Google Data Studio, but also the ability of problem solving, communication, teamwork, and comprehension of banking industry dataset from the Full Stack Data Analytics Program in RevoU. 
+			Along with my business background and solid skills of data analytics ground knowledge, I’m eager to leverage data and confident to pursue the data analyst career.
+        </p>
+    </div>
+
+    
+    <section class="background section" id="background">
+                <h2 class="section__title">Background</h2>
+                <span class="section__subtitle">Felia's Background</span>
+
+                <div class="background__container container">
+                    <div class="background__tabs">
+                        <div class="background__button button--flex" data-target='#education'>
+                            <i class="uil uil-graduation-cap background__icon"></i>
+                            Education
+                        </div>
+                        <div class="background__button button--flex background__active" data-target='#Experience'>
+                            <i class="uil uil-suitcase-alt background__icon"></i>
+                            Experience
+                        </div>
+                    </div>
+
+                    <div class="background__sections">
+                        <div class="background__content" data-content id="education">
+                            <div class="background__data">
+                                <div>
+                                    <h3 class="background__title">Full Stack Data Analytics</h3>
+                                    <span class="background__subtitle">RevoU</span>
+                                    <div class="background__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        May 2022 - Aug 2022 | Final Score: 100/100
+                                    </div>
+                                    <div class="background__desc">
+                                        <li> Managed to have fundamental knowledge of end-to-end analysis from understanding business problems, data gathering, data cleaning, data analysis, data visualization, and data communication. </li>
+                                        <li> Thorough comprehension of statistics, spreadsheet, SQL (Google Big Query), and Python (Google Colab) to conduct data preparation, data cleaning and data analysis. </li>
+                                        <li> Learned data visualization with Google Data Studio (Looker), Tableau Public, and data communication. </li>
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="background__rounder"></span>
+                                    <span class="background__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="background__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="background__rounder"></span>
+                                    <!-- <span class="background__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="background__title">Business Management</h3>
+                                    <span class="background__subtitle">Bina Nusantara University</span>
+                                    <div class="background__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Aug 2018 - May 2022 | Cumulative GPA: 3.91/4.00
+                                    </div>
+                                    <div class="background__desc">
+                                       <li> Learned the four business functions, business mathematics & analytics, and entrepreneurship. </li>
+                                       <li> Honored “Summa Cumlaude”, “Best Graduate”, "Highest Achievement on Academic", "The Most Favourite Freshmen Leader" from Business Management Program and "Best Tutor" for English Tutor from Bekasi Campus. </li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="background__content background__active" data-content id="experience">
+                            <div class="background__data">
+                                <div>                               
+                                    <h3 class="background__title">Section Manager of Full Stack Data Analytics</h3>
+                                    <span class="background__subtitle">PT Revolusi Cita Edukasi (RevoU)</span>
+                                    <div class="background__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Aug 2022 - Dec 2022
+                                    </div>
+                                    <div class="background__desc">
+                                        <li> Managed and moderated one Full Stack Data Analytics class consisting of 71 students. </li>
+                                        <li> Delivered best-in-class learning experiences by maintaining all stakeholders’ performance & quality to ensure high engagement, optimal learning, monitoring students’ progress, and regularly reaching out to students facing difficulties and learning issues.</li>
+                                        <li> Provided daily & weekly reports and generated insights based on the KPI, metrics, and insights from all stakeholders.</li>
+                                        <li> Strived to improve class satisfaction rate and managed to achieve it from 4.77 in the 1st week to 4.97 in the 13th week with the average of 4.88 which exceeded the target by 0.62%.</li>
+                                        <li> Managed to achieve response rate above 95% to validate the result of class satisfaction rate & students’ feedback and the average of 4.93 for the section manager rate from the 1st week until 13th week.</li>
+                                        <li> Improved the overall class satisfaction rate from 4.77 (previous batch) to 4.86 and section manager rate from 4.82 (previous batch) to 4.89 together with FSDA team.</li>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="background__rounder"></span>
+                                    <span class="background__line"></span>
+                                </div>
+                            </div>
+
+                            <div class="background__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="background__rounder"></span>
+                                    <span class="background__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="background__title">End-to-End Data Analytics Project</h3>
+                                    <span class="background__subtitle">PT Revolusi Cita Edukasi (RevoU)</span>
+                                    <div class="background__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        May 2022 - Aug 2022
+                                    </div>
+                                    <div class="background__desc">
+                                        <li> Completed a group project: Business Review of Eagle National Bank using retail banking dataset which consisted of 4,500+ rows of data related to clients account, transaction, loan, order, call center logs, and CRM.</li>
+                                        <li> Provided insights of company's performance with EDA, Cohort Analysis, Clustering Analysis, and Sentimental Analysis by using Python (Google Colab).</li>
+                                        <li> Supported analysis comprehension with data visualization using Google Data Studio (Looker) and Tableau Public.</li>
+                                        <li> Gave recommendations to improve customer retention, customer experience, and maximize marketing campaigns.</li>
+                                        <li> Presented the project to data experts with satisfactory result, managed to achieve highest score among all groups, and chosen as “Best Group” for the Final Project Competition.Maintaining smooth collaboration with waste management stakeholders.</li>
+                                    </div>
+                                </div>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+    
+    <div id="projects">
+        <h1>Projects</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1547922657-b370d1687eb1?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80">
+            <img onclick="magnify($(this).attr('src'))" src="https://images.unsplash.com/photo-1549375463-8cbc18ca3f24?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80">
+        </div>
+    </div>
+
+    <div id="projects">
+        <h1>Projects</h1>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Business Review of Eagle National Bank (Retail Banking) Project</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>XYZ Company's Employee Attrition Rate (Understanding Business Problem)</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+		
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>The Look E-Commerce (SQL)</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+		    
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Olist E-Commerce (Python)</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+		
+		<div class="project shadow-large">
+                    <div class="project-image">
+                        <img src="images/project.jpg" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Netflix Movie & Show Dashboard (Tableau Public)</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in iaculis ex. Etiam volutpat laoreet urna. Morbi ut tortor nec nulla commodo malesuada sit amet vel lacus. Fusce eget efficitur libero. Morbi dapibus porta quam laoreet placerat.
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+    
+
+    <div id="contact">
+        <h1>Contact</h1>
+            <table>
+                <tr>
+                    <td>
+                        <div id="inner_div">
+                            <table id="inner_table">
+                                <tr>
+                                    <td><i class="fas fa-phone"></i> &nbsp; 085945644741</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-at"></i> &nbsp; evangelistafelia0059@email.com</td>
+                                </tr>
+                                <tr>
+                                    <td><i class="fas fa-map-marker-alt"></i>
+                                    <div id="address">
+                                        Jakarta, Indonesia
+                                    </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="mailto:evangelistafelia0059@gmail.com" target="_blank" class="social"><i class="fab fa-gmail"></i></a></td>
+                                        <a href="https://www.linkedin.com/in/felia-evangelista/" target="_blank" class="social"><i class="fab fa-linkedin"></i></a></td>
+                                        <a href="https://www.instagram.com/feliaevangelista/?next=%2F" target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
+                                        <a href="https://github.com/feliaevangelista" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </td>
+                    <td>
+                        <form>
+                            <input type="text" placeholder="name" required>
+                            <input type="email" placeholder="email" required><br>
+                            <textarea placeholder="your message" required rows="5"></textarea><br>
+                            <button class="btn_one">send</button>
+                        </form> 
+                    </td>
+                </tr>
+            </table>
+    </div>
+    <div id="footer">
+        Made by <a href="https://feliaevangelista.github.io">Felia Evangelista</a>
+    </div>
+    <script src="index.js" type="text/javascript"></script>
+</body>
+</html>
